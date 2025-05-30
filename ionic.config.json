@@ -1,7 +1,13 @@
 {
-  "name": "App_ios_usuario",
+  "name": "Mi Beneficio TISA",
   "integrations": {
     "capacitor": {}
   },
-  "type": "angular"
+  "type": "angular",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "https://backmibeneficio.tisaweb.mx/api"
+    }
+  ]
 }
